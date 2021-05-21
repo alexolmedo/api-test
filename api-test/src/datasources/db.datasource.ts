@@ -9,7 +9,7 @@ const config = {
   port: 27017,
   user: 'api_user',
   password: 'api1234',
-  database: 'local',
+  database: 'api_db',
   useNewUrlParser: true
 };
 
