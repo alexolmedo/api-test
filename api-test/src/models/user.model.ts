@@ -62,11 +62,15 @@ export class User extends Entity {
 
   @property({
     type: 'string',
+    nullable: true,
+    jsonSchema: {nullable: true}
   })
   email?: string;
 
   @property({
     type: 'boolean',
+    nullable: true,
+    jsonSchema: {nullable: true}
   })
   hireable?: boolean;
 
