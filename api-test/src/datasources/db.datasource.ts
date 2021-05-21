@@ -7,8 +7,8 @@ const config = {
   url: '',
   host: '127.0.0.1',
   port: 27017,
-  user: '',
-  password: '',
+  user: 'api_user',
+  password: 'api1234',
   database: 'local',
   useNewUrlParser: true
 };
