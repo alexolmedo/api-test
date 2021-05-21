@@ -47,16 +47,22 @@ export class User extends Entity {
 
   @property({
     type: 'string',
+    nullable: true,
+    jsonSchema: {nullable: true}
   })
   name?: string;
 
   @property({
     type: 'string',
+    nullable: true,
+    jsonSchema: {nullable: true}
   })
   company?: string;
 
   @property({
     type: 'string',
+    nullable: true,
+    jsonSchema: {nullable: true}
   })
   location?: string;
 
